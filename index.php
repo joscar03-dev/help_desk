@@ -55,7 +55,17 @@
                                     </div>
                                     <?php
                                 case '2':
-                                     
+                                    ?>
+                                        <div class="alert alert-danger">
+                                            <button type="button" class = "close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            <div class="d-flex align-item-center justify-content-start">
+                                                <span class="fa fa-exclamation-triangle"></span>
+                                                Los campos son obligatorios
+                                            </div>
+                                        </div>
+                                    <?php
                                     break;
                                 default:
                                 break;
